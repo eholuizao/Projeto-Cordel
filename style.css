@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 7vw;
+}
+
+header > h1 span {
+    font-family: 'Passion One', cursive;
+    font-size: 9.5vw;
+}
+
+article {
+    padding: 5em 0em;
+}
+
+main > article p {
+    margin: 0px 0px 100px 0px;
+    line-height: 2em;
+    font-size: 3.5vw;
+    width: 45%;
+    font-family: 'Sriracha', cursive;
+    margin-left: 20px;
+}
+
+
+article#background-1 {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    color: white;
+    background-image: url("imagens/background001.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: 0px 0px 10px black inset;
+}
+
+article#background-2 {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    color: white;
+    background: black url("imagens/background002.jpg") no-repeat left bottom/cover;
+    box-shadow: 0px 0px 10px black inset;
+}
+
+article#background-1 p, article#background-2 p {
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+footer {
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
