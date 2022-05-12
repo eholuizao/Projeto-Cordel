@@ -45,17 +45,14 @@ main > article p {
 article#background-1 {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     color: white;
-    background-image: url("imagens/background001.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
+    background: black url("imagens/background001.jpg") no-repeat right center/cover fixed;
     box-shadow: 0px 0px 10px black inset;
 }
 
 article#background-2 {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     color: white;
-    background: black url("imagens/background002.jpg") no-repeat left bottom/cover;
+    background: black url("imagens/background002.jpg") no-repeat left bottom/cover fixed;
     box-shadow: 0px 0px 10px black inset;
 }
 
